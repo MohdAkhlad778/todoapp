@@ -8,7 +8,7 @@ app.use(express.json());
 
 const SECRET_KEY = 'your-secret-key-change-this';
 
-mongoose.connect('mongodb://localhost:27017/todoapp')
+mongoose.connect('mongoose.connect('mongodb+srv://admin:James5566@#@cluster0.jjlmmrm.mongodb.net/todoapp?retryWrites=true&w=majority')')
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.log('Error:', err));
 
